@@ -1,26 +1,27 @@
 ![Shadowsocks](https://github.com/teddysun/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
 
-'''
+```
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/aspenstarss/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-'''
+```
 
 # 常用命令
 - 启动SSR：  
-'/etc/init.d/shadowsocks-r start'
+`/etc/init.d/shadowsocks-r start`
 - 退出SSR：  
-'/etc/init.d/shadowsocks-r stop'
+`/etc/init.d/shadowsocks-r stop`
 - 重启SSR：  
-'/etc/init.d/shadowsocks-r restart'
+`/etc/init.d/shadowsocks-r restart`
 - SSR状态：  
-'/etc/init.d/shadowsocks-r status'
+`/etc/init.d/shadowsocks-r status`
 - 卸载SSR：  
-'./shadowsocks-all.sh uninstall'
+`./shadowsocks-all.sh uninstall`
 
 # 更改SSR的相关配置参数
-配置文件位置:'/etc/shadowsocks-r/config.json'
+配置文件位置:  
+`/etc/shadowsocks-r/config.json`
 
 shadowsocks.sh
 ===============
